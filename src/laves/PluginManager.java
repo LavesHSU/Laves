@@ -1,7 +1,8 @@
 /**
  * This is part of LAVES - Logistics Algorithms Visualization and Education Software.
  * 
- * Copyright (C) 2014 Jan Dornseifer & Department of Management Information Science, University of Siegen
+ * Copyright (C) 2020 Jan Dornseifer & Department of Management Information Science, University of Siegen &
+ *                    Department for Management Science and Operations Research, Helmut Schmidt University
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,14 +15,6 @@
  * GNU General Public License for more details.
  * 
  * See license/LICENSE.txt for further information.
- * 
- *=========================================================================================================
- * 
- * Class:		PluginManager
- * Task:		Manager of plugin installations or deinstallations
- * Created:		29.04.14
- * LastChanges:	09.10.14
- * LastAuthor:	jdornseifer
  */
 
 package laves;
