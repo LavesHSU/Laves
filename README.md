@@ -22,7 +22,7 @@ LAVES was developed and maintained at the Department of Management Information S
 | 1.1 | 07/14/2014 |
 | 1.0 | 05/30/2014 |
 
-See the Changelog for a What's new list.
+Please see (and extend) the changelog for a What's new list.
 
 # Images and Videos
 ![LAVES logo](https://www.wiwi.uni-siegen.de/mis/software/logo_small.png)
