@@ -10,6 +10,20 @@ LAVES is available in German and English. It was originally developed to serve a
 [![MIS Uni Siegen](https://www.uni-siegen.de/stylesheets/redesign_09/uni_images/uni_logo.svg)](https://www.wiwi.uni-siegen.de/mis/software/laves.html)
 [![HSU](https://www.hsu-hh.de/wp-content/themes/hsu/img/hsulogo.png)](https://www.hsu-hh.de/or/)
 
+# Releases
+
+LAVES was developed and maintained at the Department of Management Information Science of the University of Siegen. Since 2020, the further development of LAVES is supervised by the Department for Management Science and Operations Research of the Helmut Schmidt University.
+| Release | Date |
+|---------|------|
+| 1.5 | 04/04/2016 |
+| 1.4 | 11/11/2015 |
+| 1.3 | 05/06/2015 |
+| 1.2 | 10/15/2014 |
+| 1.1 | 07/14/2014 |
+| 1.0 | 05/30/2014 |
+
+See the Changelog for a What's new list.
+
 # Images and Videos
 ![LAVES logo](https://www.wiwi.uni-siegen.de/mis/software/logo_small.png)
 ![LAVES](https://www.wiwi.uni-siegen.de/mis/software/savings-av.png)
