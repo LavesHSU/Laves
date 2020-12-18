@@ -1,0 +1,1049 @@
+﻿/////////////////////////////////////////////////////////////////////////////
+//                   This is a language file of LAVES
+//     - Logistics Algorithms Visualization and Education Software -
+//
+// PLEASE NOTE: The language file uses an utf-8 encoding, meaning if you
+//		update the language file, please ensure that the encoding
+//		is the same as before.
+//
+// You can add new languages by inserting a new language id (e.g. #fr) to the
+// $LANGUAGES label and to each of the following labels.
+//
+// A label (begins with $) is a placeholder for a description according to
+// the language (id) which is currently active.
+// If you integrate a new language, you have to ensure that a description
+// is defined for each label.
+// A descirption has the form:
+// #en = Foo
+//  |     |
+//  |      -> the label description
+//   -> the language id
+/////////////////////////////////////////////////////////////////////////////
+
+$LANGUAGES
+#en = English
+#de = Deutsch
+
+// the welcome message in the statusbar at the beginning
+$WELCOME_MESSAGE
+#en = Welcome to LAVES!
+#de = Willkommen in LAVES!
+
+// the title of the welcome screen
+$WELCOME_SCREEN_TITLE
+#en = Welcome
+#de = Willkommen
+
+// the subhead in the welcome screen
+$WELCOME_SCREEN_SUBHEAD
+#en = a software to visualize, animate and educate the execution of algorithms with the goal to facilitate users the understanding of algorithms
+#de = eine Software zur Visualisierung, Animation und Lehre von Algorithmen-Abläufen  mit dem Ziel, Benutzern das Verständnis von Algorithmen zu erleichtern
+
+// the how to caption in the welcome screen
+$WELCOME_SCREEN_HOWTO
+#en = HowTo
+#de = HowTo
+
+// the subtitle of the how to in the welcome screen
+$WELCOME_SCREEN_HOWTO_SUBTITLE
+#en = find out how to work with LAVES
+#de = finden Sie heraus, wie Sie mit LAVES arbeiten
+
+// the SDK caption in the welcome screen
+$WELCOME_SCREEN_SDK
+#en = Software Development Kit
+#de = Software Development Kit
+
+// the subtitle of the SDK in the welcome screen
+$WELCOME_SCREEN_SDK_SUBTITLE
+#en = getting started with developing own plugins
+#de = Einstieg in die Entwicklung eigener Plugins
+
+// the changelog caption in the welcome screen
+$WELCOME_SCREEN_CHANGELOG
+#en = Changelog
+#de = Changelog
+
+// the subtitle of the changelog in the welcome screen
+$WELCOME_SCREEN_CHANGELOG_SUBTITLE
+#en = what's new in the latest version
+#de = Neuerungen in der aktuellen Version
+
+// the caption of the last algorithms panel in the welcome screen
+$WELCOME_SCREEN_LASTALGOS
+#en = Recently opened algorithms
+#de = Zuletzt geöffnete Algorithmen
+
+// the caption of the quick start panel in the welcome screen
+$WELCOME_SCREEN_QUICKSTART
+#en = QuickStart
+#de = QuickStart
+
+// the message that is logged if errors occurred during the application was started 
+$MSG_OPENEDWITHERRORS
+#en = Opened with errors (see log/log.txt for further information)!
+#de = Mit Fehlern gestartet (siehe log/log.txt für weitere Informationen)!
+
+// the title of the new dialog
+$DLG_NEW_TITLE
+#en = New algorithm
+#de = Neuer Algorithmus
+
+// the description of the new dialog
+$DLG_NEW_DESCRIPTION
+#en = <b>Select an algorithm from the list below.</b><br>Use the preferences to individualize the selected algorithm.
+#de = <b>Wählen Sie einen Algorithmus aus der unteren Liste aus.</b><br>Nutzen Sie die Einstellungen, um den ausgewählten Algorithmus zu individualisieren.
+
+// the title of the information area in the new dialog
+$DLG_NEW_INFORMATIONAREA_TITLE
+#en = Information
+#de = Informationen
+
+// the title of the creator preferences area in the new dialog
+$DLG_NEW_CREATORPREFSAREA_TITLE
+#en = Preferences
+#de = Einstellungen
+
+$DLG_NEW_NUMBEROFINSTALLEDALGOS
+#en = Number of installed algorithms:
+#de = Anzahl installierter Algorithmen:
+
+// the hint of the search field in the new dialog
+$DLG_NEW_SEARCH
+#en = Search
+#de = Suche
+
+// the name of the algorithm name column in the algorithms table
+$COLUMN_ALGONAME
+#en = Name
+#de = Name
+
+// the name of the algorithm description column in the algorithms table
+$COLUMN_ALGODESC
+#en = Description
+#de = Beschreibung
+
+// the name of the problem affiliation column in the algorithms table
+$COLUMN_ALGOPROBLEMAFFILIATION
+#en = Problem Affiliation
+#de = Problemzugehörigkeit
+
+// the name of the subject column in the algorithms table
+$COLUMN_ALGOSUBJECT
+#en = Subject
+#de = Fachgebiet
+
+// the name of the algorithm type column in the algorithms table
+$COLUMN_ALGOTYPE
+#en = Type
+#de = Typ
+
+// the name of the algorithm author column in the algorithms table
+$COLUMN_ALGOAUTHOR
+#en = Author
+#de = Autor
+
+// the name of the algorithm author contact column in the algorithms table
+$COLUMN_ALGOAUTHORCONTACT
+#en = Author Contact Details
+#de = Autor-Kontaktdaten
+
+// the name of the algorithm version column in the algorithms table
+$COLUMN_ALGOVERSION
+#en = Version
+#de = Version
+
+// the name of the used SDK version column in the algorithms table
+$COLUMN_ALGOSDKVERSION
+#en = Used SDK Version
+#de = Verwendete SDK-Version
+
+// the label of the algorithm assumptions in the new dialog
+$DLG_NEW_ALGOASSUMPTIONS
+#en = Assumption(s)
+#de = Voraussetzung(en)
+
+// the title of the preferences dialog
+$DLG_PREFERENCES_TITLE
+#en = Preferences
+#de = Einstellungen
+
+// the title of the main tab in the preferences dialog
+$DLG_PREFERENCES_MAIN
+#en = Main
+#de = Allgemein
+
+// the title of the customize tab in the preferences dialog
+$DLG_PREFERENCES_CUSTOMIZE
+#en = Customize
+#de = Anpassen
+
+// the caption of the language label in the preferences dialog
+$DLG_PREFERENCES_MAIN_LANGUAGE
+#en = Language:
+#de = Sprache:
+
+// the caption of the language info label in the preferences dialog
+$DLG_PREFERENCES_MAIN_LANGUAGE_INFO
+#en = The selected language refers to the user interface of the software and does not have to be supported by each installed plugin!
+#de = Die ausgewählte Sprache bezieht sich auf die Benutzeroberfläche der Software und muss nicht von allen installierten Plugins unterstützt werden!
+
+// the caption of the welcome screen checkbox in the preferences dialog
+$DLG_PREFERENCES_MAIN_SHOWWELCOMESCREEN
+#en = Show the Welcome Screen?
+#de = Willkommensschirm anzeigen?
+
+// the caption of the exercise mode info dialog checkbox in the preferences dialog
+$DLG_PREFERENCES_MAIN_SHOWEXERCISEMODEINFODLG
+#en = Show the Exercise Mode Information Dialog?
+#de = Den Übungsmodus-Informationsdialog anzeigen?
+
+// the caption of the information bar checkbox in the preferences dialog
+$DLG_PREFERENCES_MAIN_DISABLEINFOBAR
+#en = Disable the information bar permanently?
+#de = Informationsleiste permanent ausblenden?
+
+// the caption of the columns area in the preferences dialog
+$DLG_PREFERENCES_MAIN_COLUMNS
+#en = Which columns should be displayed in the algorithms table?
+#de = Welche Spalten sollen in der Tabelle der Algorithmen angezeigt werden?
+
+// the caption of the open recent count label in the preferences dialog
+$DLG_PREFERENCES_MAIN_OPENRECENTCOUNT
+#en = Open Recent Count:
+#de = Anzahl letzter Algorithmen:
+
+// the caption of the open recent count info label in the preferences dialog
+$DLG_PREFERENCES_MAIN_OPENRECENTCOUNT_INFO
+#en = Specify how many algorithms should be listed in the history.
+#de = Legen Sie fest, wie viele Algorithmen in der Historie aufgeführt werden sollen.
+
+// the caption of the select plugin label in the preferences dialog
+$DLG_PREFERENCES_CUSTOMIZE_SELECTPLUGIN
+#en = Select a plugin:
+#de = Plugin auswählen:
+
+// the caption of the apply button in the preferences dialog
+$DLG_PREFERENCES_CUSTOMIZE_APPLY
+#en = Apply
+#de = Anwenden
+
+// the title of the about dialog
+$DLG_ABOUT_TITLE
+#en = About
+#de = Über
+
+// the title of the info tab in the about dialog
+$DLG_ABOUT_INFO
+#en = Information
+#de = Informationen
+
+// the title of the contributors tab in the about dialog
+$DLG_ABOUT_CONTRIBUTORS
+#en = Contributors
+#de = Mitwirkende
+
+// the title of the license tab in the about dialog
+$DLG_ABOUT_LICENSE
+#en = License
+#de = Lizenz
+
+// the caption of the version label in the about dialog
+$DLG_ABOUT_INFO_VERSION
+#en = Version:
+#de = Version:
+
+// the caption of the LAVESDK version label in the about dialog
+$DLG_ABOUT_INFO_SDKVERSION
+#en = SDK Version:
+#de = SDK-Version:
+
+// the prefix of the minimum version information of the LAVESDK
+$DLG_ABOUT_INFO_SDKVERSION_MIN
+#en = min.
+#de = min.
+
+// the caption of the product info label in the about dialog
+$DLG_ABOUT_INFO_PRODUCTINFO
+#en = This product includes the JLaTeXMath library and uses the Fugue Icons Set by Yusuke Kamiyamane.
+#de = Dieses Produkt verwendet die JLaTeXMath Bibliothek und benutzt das Fugue Icons Set von Yusuke Kamiyamane.
+
+// the caption of the development info label in the about dialog
+$DLG_ABOUT_INFO_DEVINFO
+#en = This software is developed at the Departement of Management Information Science, University of Siegen.
+#de = Diese Software wird am Lehrstuhl für Management Information Science an der Universität Siegen entwickelt.
+
+// the title of the plugin manager dialog
+$DLG_PLUGINMANAGER_TITLE
+#en = Installed Plugins
+#de = Installierte Plugins
+
+// the caption of the install button in the plugin manager dialog
+$DLG_PLUGINMANAGER_BTN_INSTALL
+#en = Install...
+#de = Installieren...
+
+// the caption of the deinstall button in the plugin manager dialog
+$DLG_PLUGINMANAGER_BTN_DEINSTALL
+#en = Deinstall
+#de = Deinstallieren
+
+// the description of the plugin manager dialog
+$DLG_PLUGINMANAGER_DESCRIPTION
+#en = <b>Install new plugins or deinstall existing ones.</b>
+#de = <b>Installieren Sie neue Plugins oder deinstallieren Sie bereits vorhandene.</b>
+
+// the title of the how to dialog
+$DLG_HOWTO_TITLE
+#en = HowTo
+#de = HowTo
+
+// the title of the exercise mode information dialog
+$DLG_EXERCISEMODEINFO_TITLE
+#en = Information about the Exercise Mode
+#de = Informationen zum Übungsmodus
+
+// the text of the exercise mode information dialog
+$DLG_EXERCISEMODEINFO_TEXT
+#en = The exercise mode let you practice the algorithm in an interactive way.<br>Start the algorithm and answer the exercises, you will be asked during the execution. You have an arbitrary<br>number of attempts to solve an exercise. If you are not able to process an exercise, you can cancel the task<br>and view the sample solution in the visualization.<br><br>If an exercise can be solved directly in a view of the algorithm then the corresponding view is highlighted with a<br>border where you can enter your solution (only afterwards press the "solve"-button of the exercise).<br>Otherwise the solution of the exercise is usually entered in a dialog that is opened if you click on the "solve"-button of the task.
+#de = Der Übungsmodus ermöglicht Ihnen, den Algorithmus interaktiv zu erlernen.<br>Starten Sie den Algorithmus und beantworten Sie die Aufgaben, die Ihnen während der Ausführung gestellt werden.<br>Zum Lösen einer Aufgaben haben Sie eine beliebige Anzahl von Versuchen. Sind Sie nicht in der Lage,<br>eine Aufgabe zu bearbeiten, können Sie diese abbrechen und die Musterlösung in der Visualisierung betrachten.<br><br>Wenn die Lösung einer Aufgabe direkt in einer Ansicht des Algorithmus eingegeben werden kann,<br>wird die dazugehörige Ansicht mit einer Umrandung hervorgehoben, in der Sie dann Ihre Lösung eingeben können<br>(betätigen Sie erst danach den "Lösen"-Button der Übungsaufgabe).<br>Andernfalls wird die Lösung der Aufgabe in der Regel in einem Dialogfenster eingegeben, das sich öffnet, wenn Sie<br>auf die "Lösen"-Schaltfläche der Aufgabe klicken. 
+
+// the see also label of the exercise mode information dialog
+$DLG_EXERCISEMODEINFO_SEEALSO
+#en = See also here:
+#de = Sehen Sie auch hier:
+
+// the instructions link of the exercise mode information dialog
+$DLG_EXERCISEMODEINFO_INSTRUCTIONSLINK
+#en = Instructions of the algorithm
+#de = Anleitung zum Algorithmus
+
+// the title of the name column in a properties list
+$PROPERTIESLIST_NAME_COLUMN
+#en = Property
+#de = Eigenschaft
+
+// the title of the value column in a properties list
+$PROPERTIESLIST_VALUE_COLUMN
+#en = Value
+#de = Wert
+
+// the title of the file menu
+$MENU_FILE
+#en = File
+#de = Datei
+
+// the title of the algorithm menu (runtime environment menu)
+$MENU_ALGORITHM
+#en = Algorithm
+#de = Algorithmus
+
+// the title of the functions menu
+$MENU_FUNCTIONS
+#en = Functions
+#de = Funktionen
+
+// the title of the view menu
+$MENU_VIEW
+#en = View
+#de = Ansicht
+
+// the title of the tools menu
+$MENU_TOOLS
+#en = Tools
+#de = Extras
+
+// the title of the help menu
+$MENU_HELP
+#en = Help
+#de = Hilfe
+
+// the title of the open recent submenu in menu file
+$MENU_FILE_OPENRECENT
+#en = Open Recent
+#de = Zuletzt geöffnete Algorithmen
+
+// the exit item in menu file
+$MENU_FILE_EXIT
+#en = Exit
+#de = Beenden
+
+// the help item in menu help
+$MENU_VIEW_INFOBAR
+#en = Information Bar
+#de = Informationsleiste
+
+// the install new plugins item in menu tools
+$MENU_TOOLS_INSTALLNEWPLUGINS
+#en = Install New Plugins...
+#de = Neue Plugins installieren...
+
+// the plugins item in menu tools
+$MENU_TOOLS_OPENPLUGINS
+#en = Open Plugins Page
+#de = Plugins-Seite öffnen
+
+// the preferences item in menu tools
+$MENU_TOOLS_PREFERENCES
+#en = Preferences
+#de = Einstellungen
+
+// the help item in menu help
+$MENU_HELP_HELP
+#en = LAVES Help
+#de = LAVES-Hilfe
+
+// the how to item in menu help
+$MENU_HELP_HOWTO
+#en = HowTo
+#de = HowTo
+
+// the instructions item in menu help
+$MENU_HELP_INSTRUCTIONS
+#en = Instructions
+#de = Anleitung
+
+// the website item in menu help
+$MENU_HELP_WEBSITE
+#en = LAVES Website
+#de = LAVES-Webseite
+
+// the about item in menu help
+$MENU_HELP_ABOUT
+#en = About
+#de = Über
+
+// the tooltip text or menu item text of file > new
+$FILE_NEW
+#en = New...
+#de = Neu...
+
+// the tooltip text or menu item text of file > save as
+$FILE_SAVE_AS
+#en = Save as...
+#de = Speichern unter...
+
+// the tooltip text or menu item text of file > open
+$FILE_OPEN
+#en = Open...
+#de = Öffnen...
+
+// the tooltip text or menu item text of runtime environment > enable exercise mode
+$RTE_EXERCISE_MODE
+#en = Exercise Mode
+#de = Übungsmodus
+
+// the tooltip text or menu item text of runtime environment > start
+$RTE_START
+#en = Start/Resume
+#de = Starten/Fortsetzen
+
+// the tooltip text or menu item text of runtime environment > start to finish
+$RTE_START_TO_FINISH
+#en = Start/Resume to Finish
+#de = Starten/Fortsetzen bis zum Ende
+
+// the tooltip text or menu item text of runtime environment > play and pause
+$RTE_PLAY_AND_PAUSE
+#en = Play And Pause
+#de = Wiedergabe und Pausieren
+
+// the tooltip text or menu item text of runtime environment > stop
+$RTE_STOP
+#en = Stop
+#de = Beenden
+
+// the tooltip text or menu item text of runtime environment > pause
+$RTE_PAUSE
+#en = Pause
+#de = Pausieren
+
+// the tooltip text or menu item text of runtime environment > next step
+$RTE_NEXT_STEP
+#en = Next Step
+#de = Schritt vor
+
+// the tooltip text or menu item text of runtime environment > previous step
+$RTE_PREV_STEP
+#en = Previous Step
+#de = Schritt zurück
+
+// the tooltip text or menu item text of runtime environment > skip all breakpoints
+$RTE_SKIP_BREAKPOINTS
+#en = Skip All Breakpoints
+#de = Breakpoints überspringen
+
+// the tooltip text or menu item text of runtime environment > pause before stop
+$RTE_PAUSE_BEFORE_STOP
+#en = Pause Before Stop
+#de = Vor Beendigung pausieren
+
+// the tooltip text or menu item text of runtime environment > change execution speed
+$RTE_EXECSPEED_CHANGE
+#en = Change Execution Speed
+#de = Ausführungsgeschwindigkeit ändern
+
+// the tooltip text or menu item text of runtime environment > execution speed > slower
+$RTE_EXECSPEED_SLOWER
+#en = Slower
+#de = Langsamer
+
+// the tooltip text or menu item text of runtime environment > execution speed > faster
+$RTE_EXECSPEED_FASTER
+#en = Faster
+#de = Schneller
+
+// the tooltip text or menu item text of runtime environment > execution speed > reset
+$RTE_EXECSPEED_RESET
+#en = Reset Execution Speed
+#de = Ausführungsgeschwindigkeit zurücksetzen
+
+// the tooltip text of the label that shows the execution speed factor
+$RTE_EXECSPEED
+#en = Execution Speed
+#de = Ausführungsgeschwindigkeit
+
+// the description of a normal execution speed factor
+$RTE_EXECSPEED_NORMAL
+#en = Normal
+#de = Normal
+
+// the tooltip text of the close button in the information bar
+$INFORMATIONBAR_CLOSE_TOOLTIP
+#en = Close Information Bar
+#de = Informationsleiste schließen
+
+// the label that shows the assumptions of a plugin in the information bar
+$INFORMATIONBAR_ASSUMPTIONS
+#en = Assumption(s):
+#de = Voraussetzung(en):
+
+// the tooltip text of the button that shows the instructions of a plugin in the information bar
+$INFORMATIONBAR_SHOWINSTRUCTIONS
+#en = Show Instructions
+#de = Anleitung anzeigen
+
+// the title of the dialog that shows the instructions of a plugin in the information bar
+$INFORMATIONBAR_SHOWINSTRUCTIONS_TITLE
+#en = Instructions
+#de = Anleitung
+
+// the tooltip text of the close button in the header bar of a view
+$VIEW_CLOSE_TOOLTIP
+#en = Close
+#de = Schließen
+
+// the text of the menu item to add a breakpoint in the algorithm text view
+$TEXTVIEW_ADD_BREAKPOINT
+#en = Add Breakpoint
+#de = Breakpoint hinzufügen
+
+// the text of the menu item to remove a breakpoint in the algorithm text view
+$TEXTVIEW_REMOVE_BREAKPOINT
+#en = Remove Breakpoint
+#de = Breakpoint entfernen
+
+// the text of the menu item to remove all breakpoints in the algorithm text view
+$TEXTVIEW_SET_ALL_BREAKPOINTS
+#en = Set All Breakpoints
+#de = Alle Breakpoints setzen
+
+// the text of the menu item to remove all breakpoints in the algorithm text view
+$TEXTVIEW_REMOVE_ALL_BREAKPOINTS
+#en = Remove All Breakpoints
+#de = Alle Breakpoints entfernen
+
+// the text of the menu item and the tooltip of the button to show the annotation of an algorithm step
+$TEXTVIEW_SHOW_ANNOTATION
+#en = Show Annotation
+#de = Anmerkung anzeigen
+
+// the tooltip text of the font size up button in the header bar of the algorithm text view
+$TEXTVIEW_FONTSIZE_UP_BTN_TOOLTIP
+#en = Font Size Up
+#de = Schriftgröße erhöhen
+
+// the tooltip text of the font size down button in the header bar of the algorithm text view
+$TEXTVIEW_FONTSIZE_DOWN_BTN_TOOLTIP
+#en = Font Size Down
+#de = Schriftgröße verringern
+
+// the tooltip text of the normal font size button in the header bar of the algorithm text view
+$TEXTVIEW_FONTSIZE_NORMAL_BTN_TOOLTIP
+#en = Standard Font Size
+#de = Standard-Schriftgröße
+
+// the tooltip text of the toggle breakpoint button in the header bar of the algorithm text view
+$TEXTVIEW_TOGGLE_BREAKPOINT_BTN_TOOLTIP
+#en = Toggle Breakpoint
+#de = Breakpoint umschalten
+
+// the tooltip text of the mouse cursor button in the toolbar of the graph view
+$GRAPHVIEW_MOUSECURSOR_BTN_TOOLTIP
+#en = <b>Mouse cursor</b><br>Use the cursor to select/deselect vertices and edges,<br>move a vertex by dragging him with the mouse or click in the graph<br>and move the mouse to stretch a selection area to select multiple objects.
+#de = <b>Maus</b><br>Benutze die Maus, um Knoten und Kanten aus-/abzuwählen,<br>Knoten zu verschieben oder einen Auswahlbereich aufzuspannen.
+
+// the tooltip text of the add new vertex button in the toolbar of the graph view
+$GRAPHVIEW_ADDVERTEX_BTN_TOOLTIP
+#en = <b>Add a new vertex</b><br>Use the mouse and click inside the graph area to position a new vertex.
+#de = <b>Neuen Knoten hinzufügen</b><br>Benutze die Maus und klicke innerhalb des Zeichenbereichs,<br>um einen neuen Knoten zu positionieren.
+
+// the tooltip text of the add new edge button in the toolbar of the graph view
+$GRAPHVIEW_ADDEDGE_BTN_TOOLTIP
+#en = <b>Add a new edge</b><br>Use your left mouse button to start/end a connection path and the right mouse button<br>to add intermediate points if necessary (after you click the left mouse button again<br>the vertices that lie on the path are connected).
+#de = <b>Neue Kante hinzufügen</b><br>Benutze die linke Maustaste, um Knoten zu verbinden und die rechte<br>Maustaste, um Zwischenpunkte festzulegen (wenn notwendig).<br>Nachdem die linke Maustaste ein zweites Mal betätigt wird,<br>werden die Knoten verbunden, die auf dem Pfad liegen.
+
+// the tooltip text of the delete selected objects button in the toolbar of the graph view
+$GRAPHVIEW_DELETEOBJ_BTN_TOOLTIP
+#en = <b>Delete objects</b><br>Select the vertices and edges you want to remove from the graph and<br>press this button or use the delete key on your keyboard.
+#de = <b>Objekte entfernen</b><br>Wähle die Knoten und Kanten aus, die aus dem Graphen entfernt werden<br>sollen und drücke diesen Button oder die Entfernen-Taste auf der Tastatur.
+
+// the tooltip text of the show properties button in the toolbar of the graph view
+$GRAPHVIEW_SHOWPROPS_BTN_TOOLTIP
+#en = <b>Show properties</b><br>Select a vertex or edge and press this button to show the properties window.<br>Their you can view and modify the properties of the object.<br><b>Tip 1</b>: You can double click on an object to open the properties window too.<br><b>Tip 2</b>: It is also possible to select a vertex/edge and use the keyboard to change<br>the vertex's caption or edge's weight.
+#de = <b>Eigenschaften anzeigen</b><br>Wähle einen Knoten/Kante aus und drücke diesen Button,<br>um die Eigenschaften des Objekts sehen und verändern zu können.<br><b>Tipp 1</b>: Mit einem Doppelklick auf ein Objekt lässt sich das<br>Eigenschaften-Fenster ebenfalls öffnen.<br><b>Tipp 2</b>: Es ist außerdem möglich direkt per Tastatur die Beschriftung oder das<br>Gewicht des/der ausgewählten Knoten/Kante zu verändern.
+
+// the tooltip text of the zoom in button in the toolbar of the graph view
+$GRAPHVIEW_ZOOMIN_BTN_TOOLTIP
+#en = <b>Zoom in</b>
+#de = <b>Ansicht vergrößern</b>
+
+// the tooltip text of the zoom out button in the toolbar of the graph view
+$GRAPHVIEW_ZOOMOUT_BTN_TOOLTIP
+#en = <b>Zoom out</b>
+#de = <b>Ansicht verkleinern</b>
+
+// the title of the properties dialog of the graph view in which the properties of a vertex are shown
+$GRAPHVIEW_PROPERTIESDLG_VERTEX_TITLE
+#en = Vertex Properties
+#de = Knoten-Eigenschaften
+
+// the title of the properties dialog of the graph view in which the properties of an edge are shown
+$GRAPHVIEW_PROPERTIESDLG_EDGE_TITLE
+#en = Edge Properties
+#de = Kanten-Eigenschaften
+
+// the name of the caption property in the properties dialog of a vertex
+$GRAPHVIEW_VERTEXPROPS_CAPTION
+#en = Caption
+#de = Beschriftung
+
+// the name of the weight property in the properties dialog of an edge
+$GRAPHVIEW_EDGEPROPS_WEIGHT
+#en = Weight
+#de = Gewicht
+
+// the name of the directed property in the properties dialog of an edge
+$GRAPHVIEW_EDGEPROPS_DIRECTED
+#en = Directed
+#de = Gerichtet
+
+// the description of the directed property if it is a directed graph
+$GRAPHVIEW_EDGEPROPS_DIRECTED_CHANGEINFO_DG
+#en = This is a directed graph so changing this value does not have any effect.
+#de = Dies ist ein gerichteter Graph, eine Veränderung dieses Wertes hat keine Auswirkungen.
+
+// the description of the directed property if it is an undirected graph
+$GRAPHVIEW_EDGEPROPS_DIRECTED_CHANGEINFO_UDG
+#en = This is an undirected graph so changing this value does not have any effect.
+#de = Dies ist ein ungerichteter Graph, eine Veränderung dieses Wertes hat keine Auswirkungen.
+
+// the name of the flow property in the properties dialog of an arc
+$NETWORKVIEW_ARCPROPS_FLOW
+#en = Flow
+#de = Fluss
+
+// the tooltip text of a sort up button in a sortable execution table
+$EXECUTIONTABLE_SORTUP_BTN_TOOLTIP
+#en = Up
+#de = Nach oben
+
+// the tooltip text of a sort down button in a sortable execution table
+$EXECUTIONTABLE_SORTDOWN_BTN_TOOLTIP
+#en = Down
+#de = Nach unten
+
+// the tooltip text of the graph toolbar button to apply a partition layout to the graph
+$GRAPHTOOLBAR_BIPARTITE_LAYOUT
+#en = Arrange Vertices bipartite (<b>only possible if graph is bipartite</b>)
+#de = Knoten bipartit anordnen (<b>nur möglich, wenn Graph bipartit</b>)
+
+// the tooltip text of the graph toolbar button to apply a circle layout to the graph
+$GRAPHTOOLBAR_CIRCLE_LAYOUT
+#en = Arrange Vertices in a Circle (Circle Layout)
+#de = Knoten im Kreis anordnen (Kreislayout)
+
+// the tooltip text of the graph toolbar button which checks whether the graph is complete
+$GRAPHTOOLBAR_IS_COMPLETE
+#en = Is Graph complete?
+#de = Ist Graph vollständig?
+
+// the tooltip text of the graph toolbar button which creates a complete graph
+$GRAPHTOOLBAR_CREATE_COMPLETE
+#en = Create complete Graph
+#de = Vollständigen Graphen erzeugen
+
+// the title of the dialog where the user has to enter the number of vertices when he wants to create a complete graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_DLG_TITLE
+#en = Create complete Graph
+#de = Vollständigen Graphen erzeugen
+
+// the label of the field in the dialog where the user has to enter the number of vertices when he wants to create a complete graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_DLG_NOV
+#en = Number of vertices:
+#de = Anzahl Knoten:
+
+// the label of the field the user has to enter the max. weight of edges
+$GRAPHTOOLBAR_CREATE_COMPLETE_DLG_MAXWEIGHT
+#en = Max. weight of edges:
+#de = Max. Kantengewicht:
+
+// the tooltip text of the graph toolbar button which checks if the graph is bipartite
+$GRAPHTOOLBAR_IS_BIPARTITE
+#en = Is Graph bipartite?
+#de = Ist Graph bipartit?
+
+// the tooltip text of the graph toolbar button which checks if the graph is complete bipartite
+$GRAPHTOOLBAR_IS_COMPLETE_BIPARTITE
+#en = Is Graph complete bipartite?
+#de = Ist Graph vollständig bipartit?
+
+// the tooltip text of the graph toolbar button which creates a complete bipartite graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE
+#en = Create complete bipartite Graph
+#de = Vollständig bipartiten Graphen erzeugen
+
+// the title of the dialog where the user has to enter the number of vertices in subset 1 and 2 when he wants to create a complete bipartite graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE_DLG_TITLE
+#en = Create complete bipartite Graph
+#de = Vollständig bipartiten Graphen erzeugen
+
+// the label of the field in the dialog where the user has to enter the number of vertices in subset 1 when he wants to create a complete bipartite graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE_DLG_SUBSET1
+#en = Number of vertices in subset 1:
+#de = Anzahl Knoten in Teilmenge 1:
+
+// the label of the field in the dialog where the user has to enter the number of vertices in subset 2 when he wants to create a complete bipartite graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE_DLG_SUBSET2
+#en = Number of vertices in subset 2:
+#de = Anzahl Knoten in Teilmenge 2:
+
+// the label of the field the user has to enter the max. weight of edges
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE_DLG_MAXWEIGHT
+#en = Max. weight of edges:
+#de = Max. Kantengewicht:
+
+// the tooltip text of the button to create a graph using an adjacency matrix
+$GRAPHTOOLBAR_MATRIXTOGRAPH
+#en = Create a Graph by use of an Adjacency Matrix
+#de = Graph mittels einer Adjazenzmatrix erstellen
+
+// the tooltip text of the button to create a random graph
+$GRAPHTOOLBAR_RANDOMGRAPH
+#en = Create a random Graph
+#de = Zufallsgraph erstellen
+
+// the title of the dialog where the user has to enter the number of vertices when he wants to create a random graph
+$GRAPHTOOLBAR_RANDOMGRAPH_DLG_TITLE
+#en = Create random Graph
+#de = Zufälligen Graphen erzeugen
+
+// the label of the field in the dialog where the user has to enter the number of vertices when he wants to create a random graph
+$GRAPHTOOLBAR_RANDOMGRAPH_DLG_NOV
+#en = Number of vertices:
+#de = Anzahl Knoten:
+
+// the label of the field the user has to enter the min. weight of edges
+$GRAPHTOOLBAR_RANDOMGRAPH_DLG_MINWEIGHT
+#en = Min. weight of edges:
+#de = Min. Kantengewicht:
+
+// the label of the field the user has to enter the max. weight of edges
+$GRAPHTOOLBAR_RANDOMGRAPH_DLG_MAXWEIGHT
+#en = Max. weight of edges:
+#de = Max. Kantengewicht:
+
+// the default message of the input hint of an exercise
+$EXERCISE_INPUTHINT_DEFMSG
+#en = Enter your solution of the task in the highlighted view(s) "&views&".<br>Click on the "Solve Exercise"-button only after you have made the input.
+#de = Geben Sie die Lösung der Aufgabe in der/den hervorgehobenen Ansicht(en) "&views&" ein.<br>Klicken Sie erst nach der Eingabe auf den "Aufgabe lösen"-Button.
+
+// the title of the input hint message of an exercise
+$EXERCISE_INPUTHINT_TITLE
+#en = Input Hint
+#de = Eingabehilfe
+
+// the title of the exercises list
+$EXERCISESLIST_TITLE
+#en = Exercises
+#de = Übungsaufgaben
+
+// the title of an exercise item
+$EXERCISESLIST_ITEM_EXERCISE
+#en = Exercise
+#de = Aufgabe
+
+// the description for a credit
+$EXERCISESLIST_ITEM_CREDIT
+#en = Credit
+#de = Punkt
+
+// the description for credits
+$EXERCISESLIST_ITEM_CREDITS
+#en = Credits
+#de = Punkte
+
+// the description of the result label in an exercise item
+$EXERCISESLIST_ITEM_RESULT
+#en = Result:
+#de = Ergebnis:
+
+// the description of the attempts label in an exercise item
+$EXERCISESLIST_ITEM_ATTEMPTS
+#en = Attempts:
+#de = Versuche:
+
+// the description of the last solution label in an exercise item
+$EXERCISESLIST_ITEM_LAST_SOLUTION
+#en = Last Solution:
+#de = Letzte Lösung:
+
+// the tooltip of the solve button in an exercise item
+$EXERCISESLIST_ITEM_BTN_SOLVE
+#en = Solve Exercise
+#de = Aufgabe lösen
+
+// the tooltip of the give up button in an exercise item
+$EXERCISESLIST_ITEM_BTN_GIVEUP
+#en = Give Up Exercise
+#de = Aufgabe abbrechen
+
+// the tooltip of the input hint button in an exercise item
+$EXERCISESLIST_ITEM_BTN_INPUTHINT
+#en = Show Input Hint
+#de = Eingabehilfe anzeigen
+
+// the tooltip of the annotation button in an exercise item
+$EXERCISESLIST_ITEM_BTN_ANNOTATION
+#en = Show Annotation
+#de = Anmerkung anzeigen
+
+// the tooltip of the state succeeded
+$EXERCISESLIST_ITEM_STATE_SUCCEEDED
+#en = Succeeded
+#de = Bestanden
+
+// the tooltip of the state failed
+$EXERCISESLIST_ITEM_STATE_FAILED
+#en = Failed
+#de = Nicht bestanden
+
+// the tooltip of the state failed if a hint message is available
+$EXERCISESLIST_ITEM_STATE_FAILEDHINT
+#en = Failed - Why?
+#de = Nicht bestanden - Warum?
+
+// the text of the header label of the evaluation panel
+$EXERCISESLIST_EVALUATION
+#en = Evaluation
+#de = Auswertung
+
+// the text of the credits label of the evaluation panel
+$EXERCISESLIST_EVALUATION_CREDITSACHIEVED
+#en = Credits:
+#de = Punkte:
+
+// the text of the credits in percent label of the evaluation panel
+$EXERCISESLIST_EVALUATION_INPERCENT
+#en = In Percent:
+#de = In Prozent:
+
+// the text of the grading label of the evaluation panel
+$EXERCISESLIST_EVALUATION_GRADING
+#en = Grading:
+#de = Einstufung:
+
+// the title of the grading scale dialog of the evaluation panel that is also used as the tooltip of the grading value button
+$EXERCISESLIST_EVALUATION_GRADING_SCALE
+#en = Grading Scale
+#de = Notenstufen
+
+// the title of the solve exercise dialog
+$SOLVEEXERCISEDLG_TITLE
+#en = Solve Exercise
+#de = Aufgabe lösen
+
+// the title of the adjacency matrix dialog
+$ADJACENCYMATRIXDLG_TITLE
+#en = Adjacency Matrix
+#de = Adjazenzmatrix
+
+// the description of the adjacency matrix dialog
+$ADJACENCYMATRIXDLG_DESCRIPTION
+#en = Enter the number of vertices and create the adjacency matrix by selecting a field<br>and enter a weight for the edge using the keyboard.
+#de = Bitte geben Sie die Anzahl der Knoten an und erstellen Sie anschließend die Adjazenzmatrix,<br>indem Sie ein Feld auswählen und per Tastatur das Gewicht der Kante eintragen.
+
+// the label of the field where the user has to enter the number of vertices
+$ADJACENCYMATRIXDLG_NOV
+#en = Number of vertices:
+#de = Anzahl Knoten:
+
+// the label of the checkbox to specify whether the adjacency matrix may contain zero-weight edges or not
+$ADJACENCYMATRIXDLG_ALLOWZEROWEIGHTS
+#en = Allow zero-weight edges?
+#de = Nullgewichte erlauben?
+
+// the label of the description of the zero-weight edge checkbox
+$ADJACENCYMATRIXDLG_ALLOWZEROWEIGHTS_DESC
+#en = Enable this option to allow zero-weight edges too.<br>In that case enter "-" (infinity) as the entry for "no edge" in the adjacency matrix.
+#de = Aktivieren Sie diese Option, um auch Kantengewichte mit Wert Null zuzulassen.<br>Verwenden Sie dann "-" (unendlich) als Eintrag in der Adjazenzmatrix für "keine Kante".
+
+// the title of the annotation dialog
+$ANNOTATIONDLG_TITLE
+#en = Annotation
+#de = Anmerkung
+
+// the caption of the ok button of a dialog
+$DLG_BTN_OK
+#en = Ok
+#de = Ok
+
+// the caption of the cancel button of a dialog
+$DLG_BTN_CANCEL
+#en = Cancel
+#de = Abbrechen
+
+// the caption of the quit button of a dialog
+$DLG_BTN_QUIT
+#en = Quit
+#de = Schließen
+
+// the caption of a "do not show again"-option in a dialog
+$DLG_CB_DONOTSHOWAGAIN
+#en = Do not show this dialog again
+#de = Diesen Dialog nicht mehr anzeigen
+
+// the label of the checkbox where the user can determine whether to create either a directed or an undirected graph
+$DLG_CB_CREATEDIRECTEDGRAPH
+#en = Create a directed graph?
+#de = Einen gerichteten Graphen erzeugen?
+
+// the warning message that is displayed when the user wants to delete objects in the graph view
+$MSG_WARN_GRAPHVIEW_DELETEOBJ
+#en = Are you sure you want to delete the selected objects from the graph?
+#de = Sind Sie sicher, dass die ausgewählten Objekte vom Graphen entfernt werden sollen?
+
+// the title of the warning message that is displayed when the user wants to delete objects in the graph view
+$MSG_WARN_TITLE_GRAPHVIEW_DELETEOBJ
+#en = Delete Selected Objects
+#de = Ausgewählte Objekte entfernen
+
+// the info message that informs the user that he has to select one object in the graph view to show his properties
+$MSG_INFO_GRAPHVIEW_SHOWPROPS
+#en = Select an object to show or modify its properties!
+#de = Wählen Sie ein Objekt aus, dessen Eigenschaften Sie sehen oder verändern wollen!
+
+// the title of the info message that informs the user that he has to select one object in the graph view to show his properties
+$MSG_INFO_TITLE_GRAPHVIEW_SHOWPROPS
+#en = Show Properties
+#de = Eigenschaften anzeigen
+
+// the error message that is displayed when the user wants to create a new edge in the default residual network view although the related vertices do not exist in network
+$MSG_ERR_DEFAULTRNVIEW_CREATEEDGE
+#en = The vertices "&predecessor&" and "&successor&" do not exist in the network.%nYou can only create edges between vertices that exist in the related network!%nTip: Check the captions of the vertices.
+#de = Die Knoten "&predecessor&" und "&successor&" kommen im Netzwerk nicht vor.%nEs können nur Kanten zwischen Knoten erstellt werden, die auch im zugehörigen Netzwerk existieren!%nTipp: Überprüfen Sie die Beschriftungen der Knoten.
+
+// the title of the error message that is displayed when the user wants to create a new edge in the default residual network view although the related vertices do not exist in network
+$MSG_ERR_TITLE_DEFAULTRNVIEW_CREATEEDGE
+#en = Create edge
+#de = Kante erstellen
+
+// the info message if the user wants to enable the exercise mode but the algorithm is still running
+$MSG_INFO_EXERCISEMODE
+#en = The exercise mode can only be activated/deactivated when the algorithm is stopped!
+#de = Der Übungsmodus kann nur aktiviert/deaktiviert werden, wenn der Algorithmus gestoppt wurde!
+
+// the title of the info message
+$MSG_INFO_TITLE_EXERCISEMODE
+#en = Exercise Mode
+#de = Übungsmodus
+
+// the error message when a website could not be opened
+$MSG_ERR_OPENWEBSITE
+#en = The website could not be opened!%nEnsure that you have installed a default browser.
+#de = Die Webseite konnte nicht aufgerufen werden!%nStellen Sie sicher, dass ein Standard-Browser installiert ist.
+
+// the title of the error message when a website could not be opened
+$MSG_ERR_TITLE_OPENWEBSITE
+#en = Open Website
+#de = Webseite öffnen
+
+// the warning message that is displayed when a file should be overwritten
+$MSG_WARN_SAVEEXISTINGFILE
+#en = The file "&name&" already exists.%nDo you want to overwrite it?
+#de = Die Datei "&name&" ist bereits vorhanden.%nMöchten Sie sie ersetzen?
+
+// the title of the warning message that is displayed when a file should be overwritten
+$MSG_WARN_TITLE_SAVEEXISTINGFILE
+#en = Save as
+#de = Speichern unter
+
+// the error message when a new plugin cannot be installed
+$MSG_ERR_INVALIDPLUGIN
+#en = The selected plugin is not valid, therefore it cannot be installed!
+#de = Das ausgewählte Plugin ist nicht gültig, deshalb kann es nicht installiert werden!
+
+// the title of the error message when a new plugin cannot be installed
+$MSG_ERR_TITLE_INVALIDPLUGIN
+#en = Invalid plugin
+#de = Ungültiges Plugin
+
+// the error message when a plugin could not be deinstalled
+$MSG_ERR_DEINSTALLPLUGIN
+#en = The plugin could not be deinstalled!
+#de = Das Plugin konnte nicht deinstalliert werden!
+
+// the title of the error message when a plugin could not be deinstalled
+$MSG_ERR_TITLE_DEINSTALLPLUGIN
+#en = Deinstall plugin
+#de = Plugin deinstallieren
+
+// the info message when their is no help file (user guide)
+$MSG_INFO_NOHELPFILE
+#en = Their is no user guide available for the selected language!
+#de = Es ist kein Benutzerhandbuch für die ausgewählte Sprache vorhanden!
+
+// the title of the info message when their is no help file (user guide)
+$MSG_INFO_TITLE_NOHELPFILE
+#en = No user guide available
+#de = Kein Benutzerhandbuch verfügbar
+
+// the info message when the help file (user guide) cannot be opened
+$MSG_INFO_CANNOTOPENHELPFILE
+#en = The user guide cannot be opened!%nEnsure that you have installed a suitable PDF-Reader.
+#de = Das Benutzerhandbuch kann nicht geöffnet werden!%nStellen Sie sicher, dass ein geeigneter PDF-Reader installiert ist.
+
+// the title of the info message when the help file (user guide) cannot be opened
+$MSG_INFO_TITLE_CANNOTOPENHELPFILE
+#en = User guide
+#de = Benutzerhandbuch
+
+// the info message when the language has changed
+$MSG_INFO_LANGUAGECHANGED
+#en = Please restart LAVES to apply the changed language settings.
+#de = Bitte starten Sie LAVES neu, um die geänderten Spracheinstellungen zu übernehmen.
+
+// the title of the info message when the language has changed
+$MSG_INFO_TITLE_LANGUAGECHANGED
+#en = Language
+#de = Sprache
+
+// the word yes to show the state of an statement (like: Is it a complete graph?)
+$STATE_YES
+#en = Yes
+#de = Ja
+
+// the word no to show the state of an statement (like: Is it a complete graph?)
+$STATE_NO
+#en = No
+#de = Nein
