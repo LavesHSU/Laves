@@ -1,0 +1,1 @@
+Use this folder to import plugins into Laves. This folder will not be synced to GitHub.
