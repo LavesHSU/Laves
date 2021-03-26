@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="LAVES" default="build" basedir=".">
+
+	<!-- Globals Config -->
+	<property name="encoding" value="8859_1" />
+	<property name="compilerlevel" value="1.8" />
+	<property name="debuglevel" value="lines,vars,source" />
+	<property name="includeantruntime" value="false" />
+
+	<!-- Globals -->
+	<property name="prj_laves" location="../" />
+	<property name="license" value="license\**" />
+	<property name="res_icons" value="laves/resources/**" />
+	<property name="libraries" value="../lib" />
+	<property name="jar_name" value="LAVES.jar" />
+	<property name="zip_name" value="LAVES.zip" />
+	<property name="main_class" value="laves.LAVES" />
+
+	<!-- Paths -->
+	<path id="classpath">
+		<fileset dir="../lib" includes="**/*.jar" />
+	</path>
+
+	<!-- Compile Target -->
+	<target name="compile" depends="clean, compile_laves">
+	</target>
+
+	<!-- Main Target -->
+	<target name="build">
+		<property name="debugmode" value="off" />
+		<antcall target="compile" />
+		<antcall target="makejar" />
+		<antcall target="zip_laves" />
+	</target>
+
+	<!-- Clean Projects -->
+	<target name="clean">
+		<delete dir="${prj_laves}/bin" />
+		<mkdir dir="${prj_laves}/bin" />
+	</target>
+
+	<!-- Compile LAVES -->
+	<target name="compile_laves" description="compile LAVES">
+		<javac srcdir="${prj_laves}/src" destdir="${prj_laves}/bin"
+			encoding="${encoding}" debug="${debugmode}" debuglevel="${debuglevel}"
+			target="${compilerlevel}" includeantruntime="${includeantruntime}">
+			<classpath>
+				<path refid="classpath" />
+			</classpath>
+		</javac>
+	</target>
+
+	<!-- Build runnable JAR -->
+	<target name="makejar" description="Create runnable Jar for LAVES">
+		<jar jarfile="${jar_name}" includes="**/*.class">
+			<fileset dir="${prj_laves}/bin/" />
+			<fileset dir="${prj_laves}/src" includes="${res_icons}" excludes="**/*.java" />
+			<fileset dir="${prj_laves}" includes="${license}" />
+			<zipgroupfileset dir="${libraries}" />
+			
+            <manifest>
+                <attribute name="Main-Class" value="${main_class}"/>
+            </manifest>
+		</jar>
+	</target>
+	
+	<!-- Zip LAVES -->
+	<target name="zip_laves" description="Create Zip file for LAVES">
+		<zip destfile="${zip_name}">
+			<zipfileset dir="${prj_laves}/lang" prefix="lang/" />
+			<zipfileset dir="${prj_laves}/license" prefix="license/" />
+			<zipfileset dir="${prj_laves}/plugins" prefix="plugins/" excludes="**/*.txt" />
+			<zipfileset dir="." includes="${jar_name}" fullpath="${jar_name}" />
+		</zip>
+	</target>
+
+</project>

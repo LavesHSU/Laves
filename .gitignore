@@ -2,3 +2,5 @@
 /plugins/
 /cfg/
 /log/
+/build/
+!/build/build.xml
