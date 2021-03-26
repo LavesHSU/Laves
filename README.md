@@ -24,6 +24,13 @@ LAVES was developed and maintained at the Department of Management Information S
 
 Please see (and extend) the changelog for a What's new list.
 
+# Build and release a new version
+
+Before you build and release a new version of LAVES please adjust the version information in class `Constants`.
+
+Then use the Ant build script (location: `build\build.xml`) to compile LAVES and create a runnable JAR. Additionally, the build script creates a zipped version of LAVES containing the necessary folders `lang`, `license` and `plugins`.
+If the new release should be shipped with a set of plugins then you can copy those plugins to the `plugins` directory before you run the build script.
+
 # Images and Videos
 ![LAVES logo](https://www.wiwi.uni-siegen.de/mis/software/logo_small.png)
 ![LAVES](https://www.wiwi.uni-siegen.de/mis/software/savings-av.png)
